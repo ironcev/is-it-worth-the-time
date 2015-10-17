@@ -1,0 +1,1 @@
+npp.bat "000 prepare test environment.bat"
