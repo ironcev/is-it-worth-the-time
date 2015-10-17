@@ -1,1 +1,1 @@
-npp.bat npp.bat
+npp-t.bat npp-t.bat

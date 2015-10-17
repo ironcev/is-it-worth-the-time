@@ -1,1 +1,1 @@
-npp.bat 00*.bat
+npp-t.bat 00*.bat
