@@ -1,0 +1,1 @@
+pk-t.bat *.txt password
