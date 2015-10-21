@@ -12,7 +12,7 @@ for %%i in (%1) do (
     ) else (
         set password=
     )    
-    start "Zip" /i /b /w "%zip%" a !fileName!.zip !fileName! !password! -mem=AES256
+    start "Zip" /i /b /w "%zip%" a "!fileName!.zip" "!fileName!" !password! -mem=AES256
     echo.
     
     if "%deleteOriginalFiles%"=="yes" del !fileName!
