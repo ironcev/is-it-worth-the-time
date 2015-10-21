@@ -1,1 +1,2 @@
-pk-t.bat *.txt password
+REM a1b1c!d.EFG
+pk-t.bat *.txt a1b1c^^!d^.EFG
