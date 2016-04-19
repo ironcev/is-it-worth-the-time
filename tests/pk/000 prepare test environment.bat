@@ -1,9 +1,9 @@
 del *.txt
 del *.zip
 
-copy /y "..\..\scripts\pk.bat" .\pk-t.bat
-copy /y "..\..\scripts\pk-var.bat" .\pk-var-t.bat
-copy /y "..\..\scripts\pkd.bat" .\pkd-t.bat
+copy /y "..\..\src\pk.bat" .\pk-t.bat
+copy /y "..\..\src\pk-var.bat" .\pk-var-t.bat
+copy /y "..\..\src\pkd.bat" .\pkd-t.bat
 
 "..\..\tools\fart.exe" pk-var-t.bat "..\tools\7za.exe" "..\..\tools\7za.exe"
 "..\..\tools\fart.exe" pk-t.bat pk-var.bat pk-var-t.bat

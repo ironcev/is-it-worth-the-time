@@ -1,9 +1,9 @@
 del aa*-t.bat
 rd /s /q Files
 
-copy /y "..\..\scripts\aa.bat" .\aa-t.bat
-copy /y "..\..\scripts\aac.bat" .\aac-t.bat
-copy /y "..\..\scripts\aa-var.bat" .\aa-var-t.bat
+copy /y "..\..\src\aa.bat" .\aa-t.bat
+copy /y "..\..\src\aac.bat" .\aac-t.bat
+copy /y "..\..\src\aa-var.bat" .\aa-var-t.bat
 
 md "Files\Articles"
 type NUL > Files\Articles.txt
