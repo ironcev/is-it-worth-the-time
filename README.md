@@ -4,13 +4,17 @@ My productivity scripts. At least those worth the time spent writing them ;-)
 ## About
 > I am an inveterate automator of recurring task, always looking for ways to shave seconds.<br/><br/>[Cory Doctorow on Boing Boing](https://boingboing.net/2013/04/29/how-much-time-should-you-spend.html)
 
-Me too. And being a programmer at the same time, I am a perfect candidate to fall into the trap depicted so well in the [xkcd's Automation comic](https://xkcd.com/1319/):
+Me too. And being a programmer at the same time, I am a perfect candidate to fall into the trap depicted so well in the [xkcd's Automation comic](https://xkcd.com/1319/).
 
-[![xkcd Automation](images/xkcd-automation.png)](https://xkcd.com/1319/)
+<p align="center">
+    <a href="https://xkcd.com/1319/"><img src="images/xkcd-automation.png" alt="xkcd - Automation" style="max-width:100%;"></a>
+</p>
 
 Luckily, [xkcd gave us as well this handy chart](https://xkcd.com/1205/) showing how much time is actually worth investing in automating a recurring task in order to save time over a five-year period.
 
-[![xkcd Is It Worth the Time?](images/xkcd-is-it-worth-the-time.png )](https://xkcd.com/1205/)
+<p align="center">
+    <a href="https://xkcd.com/1205/"><img src="images/xkcd-is-it-worth-the-time.png" alt="xkcd - Is It Worth the Time?" style="max-width:100%;"></a>
+</p>
 
 *Is It Worth The Time?* contains those rare productivity scripts that were actually worth the time spent writing them. They are tailored to few of my daily recurring tasks. As such, they are most likely not useful to anyone else.
 
