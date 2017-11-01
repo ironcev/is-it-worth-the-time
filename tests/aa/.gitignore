@@ -1,4 +1,6 @@
-aa-t.bat
-aa-var-t.bat
-aac-t.bat
+aa-t.ps1
+Common.ps1
+_open-editor.bat
+npp.bat
+npp-var.bat
 Files/**

@@ -1,0 +1,1 @@
+Invoke-Expression -Command .\aa-t.ps1

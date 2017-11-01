@@ -21,8 +21,7 @@ Luckily, [xkcd gave us as well this handy chart](https://xkcd.com/1205/) showing
 ## The Scripts
 Script | Name | Description
 ------------ | ------------- | -------------
-[aa.bat](src/aa.bat) | Append Article(s) | Appends one or more articles into the stuffly list of read articles.
-[aac.bat](src/aac.bat) | Append Article(s) and Create Stuffly Files | Appends one or more articles into the stuffly list of read articles and creates a stuffly file for every article.
+[aa.ps1](src/aa.ps1) | Append Articles | Appends one or more articles into the stuffly list of read articles and optionally creates a stuffly file for every article.
 [br.bat](src/br.bat) | Open in Brackets | Opens one or more files in the [Brackets](http://brackets.io) editor.
 [nf.bat](src/nf.bat) | Create New File | Creates an empty file with the given file name.
 [npp.bat](src/npp.bat) | Open in Notepad++ | Opens one or more files in the [Notepad++](https://notepad-plus-plus.org) editor.
