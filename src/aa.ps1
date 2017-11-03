@@ -32,16 +32,8 @@ Confirmation "The following articles have been added:"
 Confirmation $sb.ToString()
 
 # Create stuffly file for the articles.
-function GetInitialArticleStufflyFileContent {
-    $sb = New-Object System.Text.StringBuilder
-    for($i=0; $i -lt 6; $i++) {
-        $sb.AppendLine("$($date) ") | Out-Null
-    }
-    $sb.ToString()
-}
-
 if ($CreateStufflyFiles) {
-    $initialArticleStufflyFileContent = GetInitialArticleStufflyFileContent
+    $initialArticleStufflyFileContent = "$($date) `n$($date) `n$($date) `n$($date) `n$($date) `n$($date) `n"
     foreach ($file in $articleFiles) {
         $stufflyFileName = Join-Path $StufflyDirectory "Articles\$([System.IO.Path]::GetFileNameWithoutExtension($file.Name) + ".txt")"
         [System.IO.File]::AppendAllText($stufflyFileName, $initialArticleStufflyFileContent)
