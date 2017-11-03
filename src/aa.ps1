@@ -1,8 +1,9 @@
 param(
     [string]$Articles=(Read-Host "Articles"),
-    [string]$StufflyDirectory="c:\Users\Igor\Dropbox\stuffly\",
+    [string[]]$Tags,
     [switch]$CreateStufflyFiles=$false,
-    [switch]$DoNotOpenNpp=$false
+    [switch]$DoNotOpenNpp=$false,
+    [string]$StufflyDirectory="c:\Users\Igor\Dropbox\stuffly\"
 )
 
 . (Join-Path $PSScriptRoot "Common.ps1")
@@ -25,7 +26,11 @@ AssertThat ($articleFiles.Length -gt 0) "There are no articles that satisfy the 
 $sb = New-Object System.Text.StringBuilder
 foreach ($file in $articleFiles) {
     $fileName = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
-    $sb.AppendLine("$($date) $($fileName)") | Out-Null
+    $sb.Append("$($date) $($fileName)") | Out-Null
+    foreach($tag in $Tags) {
+        $sb.Append(" #$($tag)") | Out-Null
+    }
+    $sb.AppendLine() | Out-Null
 }
 [System.IO.File]::AppendAllText($articlesStufflyFile, $sb.ToString())
 Confirmation "The following articles have been added:"
