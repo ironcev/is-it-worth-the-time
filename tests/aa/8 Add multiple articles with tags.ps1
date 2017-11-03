@@ -1,1 +1,1 @@
-Invoke-Expression -Command ".\aa-t.ps1 *.ps1 tag1,tag2,tag3"
+Invoke-Expression -Command ".\aa-t.ps1 *.ps1 ""3d"",csharp,cpp"
