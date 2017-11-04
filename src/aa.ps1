@@ -48,7 +48,7 @@ if ($CreateStufflyFiles) {
         $stufflyFileName = Join-Path $StufflyDirectory "Articles\$([System.IO.Path]::GetFileNameWithoutExtension($file.Name) + ".txt")"
         [System.IO.File]::AppendAllText($stufflyFileName, $initialArticleStufflyFileContent)
         if (!$DoNotOpenNpp) {
-            Invoke-Expression -Command ".\npp.bat ""$($stufflyFileName)"""
+            Invoke-Expression -Command "npp.bat ""$($stufflyFileName)"""
         }
     }
     Confirmation "Stuffly files have been created for all the articles."
