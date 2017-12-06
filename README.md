@@ -27,3 +27,4 @@ Script | Name | Description
 [npp.bat](src/npp.bat) | Open in Notepad++ | Opens one or more files in the [Notepad++](https://notepad-plus-plus.org) editor.
 [pk.bat](src/pk.bat) | Pack File(s) | Packs one or more files into separate ZIP archives, one archive per file.
 [pkd.bat](src/pk.bat) | Pack File(s) and Delete Original(s) | Packs one or more files into separate ZIP archives, one archive per file and deletes the original file(s).
+[ps.bat](src/ps.bat) | Start PowerShell | Starts PowerShell.
