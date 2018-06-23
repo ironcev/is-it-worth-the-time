@@ -28,3 +28,8 @@ Script | Name | Description
 [pk.bat](src/pk.bat) | Pack File(s) | Packs one or more files into separate ZIP archives, one archive per file.
 [pkd.bat](src/pk.bat) | Pack File(s) and Delete Original(s) | Packs one or more files into separate ZIP archives, one archive per file and deletes the original file(s).
 [ps.bat](src/ps.bat) | Start PowerShell | Starts PowerShell.
+
+## License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
+
+To the extent possible under law, Igor Rončević has waived all copyright and related or neighboring rights to this work.
